@@ -1,17 +1,26 @@
+
 #titulo {
     text-align: center;
 }
 
 button {
-    block-size: 50px;
+    block-size:auto;
 
 }
 
 .entradas-formulario {
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
 }
 
 .rodape {
     border: 1px solid;
     text-align: center;
+    align-items: center;
+    margin: 0;
+    height:min-content;
 }
